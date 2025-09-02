@@ -1,12 +1,27 @@
-# React + Vite
+# Netflix Clone 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Netflix clone built with **React**, **Firebase Authentication**, and the **TMDB (The Movie Database) API** to fetch movie and TV show data.
 
-Currently, two official plugins are available:
+## Features
+- Browse trending, popular, and upcoming movies/TV shows
+- Watch trailers and view details
+- User authentication (Sign Up / Login) with Firebase
+- Responsive UI similar to Netflix
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React + Vite
+- Firebase Authentication
+- TMDB API
+- CSS
 
-## Expanding the ESLint configuration
+## Important Note 🚨
+The TMDB API is not currently accessible on some Indian networks.  
+- If you are in India, the API may not work without a **VPN**.  
+- When connected via VPN (for example, to US/Europe servers), the API works fine.  
+- This issue is due to TMDB hosting restrictions, not the code itself.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run
+Clone this repo  
+   ```bash
+   git clone https://github.com/your-username/netflix-clone.git
+   cd netflix-clone
