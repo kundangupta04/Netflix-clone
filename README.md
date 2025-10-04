@@ -23,5 +23,5 @@ The TMDB API is not currently accessible on some Indian networks.
 ## How to Run
 Clone this repo  
    ```bash
-   git clone https://github.com/your-username/netflix-clone.git
-   cd netflix-clone
+   git clone https://github.com/kundangupta04/Netflix-clone.git
+   cd Netflix-clone
